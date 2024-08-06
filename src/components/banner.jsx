@@ -3,6 +3,7 @@ import style from "../styles/styleSheet.module.scss";
 import Resume from "../assets/CV-Carolina/CV-Carolina-do-Amaral-Frederico.pdf";
 import { useContext } from "react";
 import { RefsContext } from "../context/refsContext";
+import { Fade } from "react-awesome-reveal";
 
 export const Banner = () => {
   const { helloRef } = useContext(RefsContext);
@@ -13,13 +14,15 @@ export const Banner = () => {
       className="flex justify-between pt-20 px-10 md:px-15 md:pt-28 lg:px-20 lg:pt-48 lg:pb-28 items-center  "
     >
       <div className="w-80 h-80 flex flex-col justify-center gap-3">
-        <h1 className="text-4xl md:text-5xl">
-          Hello there,
-          <span className="text-third-main-color font-semibold">
-            {" "}
-            I'm Carolina :){" "}
-          </span>
-        </h1>
+        <Fade cascade damping={0.5} triggerOnce={false} duration="3000">
+          <h1 className="text-4xl md:text-5xl">
+            Hello there,
+            <span className="text-third-main-color font-semibold">
+              {" "}
+              I'm Carolina :){" "}
+            </span>
+          </h1>
+        </Fade>
         <h3 className="text-main-grey text-xl mb-2">Full Stack Developer</h3>
         <div>
           <a
