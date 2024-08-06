@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { FaGithub } from "react-icons/fa";
 
-export default function Project({ src, alt }) {
+export default function Project({ src, alt, href }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -16,6 +17,13 @@ export default function Project({ src, alt }) {
         alt={alt}
         className={`${isHovered ? "rounded-t-lg" : "rounded-lg"}`}
       />
+      <a
+        href={href}
+        target="_blank"
+        className="absolute top-3 right-3 bg-black rounded-full p-0.5 dark:text-white"
+      >
+        <FaGithub size={30} />
+      </a>
       <div
         className={`-bottom-4 rounded-b-lg bg-main-grey z-20 flex flex-col items-center justify-center duration-500 ease-in-out ${
           isHovered ? "block" : "hidden"
