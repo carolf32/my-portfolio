@@ -1,0 +1,27 @@
+.headerBorder {
+  border-bottom: 1px solid white;
+  position: fixed;
+  width: 100%;
+  background-color: #313638;
+}
+
+.blueBorder {
+  border: 1px solid #1c99e0;
+}
+
+.stack {
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: #b8b7b8;
+}
+
+.icon {
+  font-size: 3rem /* 48px */;
+  line-height: 1;
+  color: #016494;
+  padding-top: 0.5rem;
+}
