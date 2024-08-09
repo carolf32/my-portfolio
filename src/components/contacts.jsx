@@ -10,8 +10,8 @@ export const Contacts = () => {
   const { contactsRef } = useContext(RefsContext);
 
   return (
-    <Fade duration="3000" triggerOnce={false} fraction="0.5">
-      <div ref={contactsRef}>
+    <div ref={contactsRef}>
+      <Fade duration="3000" triggerOnce={false} fraction="0.2">
         <h2 className="text-3xl font-semibold my-10 text-center">
           My contacts
         </h2>
@@ -59,7 +59,7 @@ export const Contacts = () => {
             <p className="text-main-grey">@carolf32</p>
           </a>
         </div>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 };

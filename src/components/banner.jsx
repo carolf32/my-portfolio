@@ -11,9 +11,9 @@ export const Banner = () => {
   return (
     <div
       ref={helloRef}
-      className="flex justify-between pt-20 px-10 md:px-15 md:pt-28 lg:px-20 lg:pt-48 lg:pb-28 items-center  "
+      className="flex flex-col md:flex-row justify-between pt-20 px-10 md:px-15 md:pt-28 lg:px-20 lg:pt-48 lg:pb-28 items-center  "
     >
-      <div className="w-80 h-80 flex flex-col justify-center gap-3">
+      <div className="w-80 h-80 flex flex-col justify-center gap-3 items-center text-center">
         <Fade cascade damping={0.5} triggerOnce={false} duration="3000">
           <h1 className="text-4xl md:text-5xl">
             Hello there,
@@ -43,7 +43,7 @@ export const Banner = () => {
       <img
         src={Carolina}
         alt="Carolina's photo"
-        className="w-60 h-60 z-0 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full shadow-md shadow-white transition transform hover:scale-110 duration-300"
+        className="w-60 h-60 z-0 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full shadow-md dark:shadow-white shadow-main-color transition transform hover:scale-110 duration-300"
       />
     </div>
   );

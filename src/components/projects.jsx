@@ -10,12 +10,12 @@ export const Projects = () => {
   const { myProjectsRef } = useContext(RefsContext);
 
   return (
-    <Fade duration="3000" triggerOnce={false} fraction="0.5">
-      <div ref={myProjectsRef} className="px-10 md:px-15 lg:px-20 pb-20 ">
+    <div ref={myProjectsRef} className="px-10 md:px-15 lg:px-20 pb-20 ">
+      <Fade duration="3000" triggerOnce={false} fraction="0.2">
         <h2 className="text-3xl font-semibold my-10 text-center">
           Some of my projects
         </h2>
-        <div className="grid grid-cols-2 gap-4 lg:grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:grid-cols-3 xl:grid-cols-4">
           <Project
             src={project1}
             alt="Generic Website project's photo"
@@ -32,7 +32,7 @@ export const Projects = () => {
             href="https://github.com/carolf32/signin-signup-page"
           />
         </div>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 };

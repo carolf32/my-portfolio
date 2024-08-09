@@ -7,10 +7,10 @@ export const Stack = () => {
   const { myStackRef } = useContext(RefsContext);
 
   return (
-    <Fade duration="3000" triggerOnce={false} fraction="0.2">
-      <div ref={myStackRef} className="px-10 md:px-15 lg:px-20 py-24 ">
+    <div ref={myStackRef} className="px-10 md:px-15 lg:px-20 py-24 ">
+      <Fade duration="3000" triggerOnce={false} fraction="0.2">
         <h2 className="text-3xl font-semibold my-10 text-center">My Stack</h2>
-        <div className="grid grid-cols-3 gap-8 md:grid-cols-4 lg:grid-cols-5 ">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-5 ">
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
           >
@@ -96,7 +96,7 @@ export const Stack = () => {
             <i className={`devicon-python-plain ${style.icon}`}></i>
           </div>
         </div>
-      </div>
-    </Fade>
+      </Fade>
+    </div>
   );
 };
