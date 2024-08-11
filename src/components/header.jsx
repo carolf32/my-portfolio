@@ -90,7 +90,7 @@ export const Header = () => {
       </div>
 
       <ul
-        className={`h-full z-40 bg-main-bg-dark bg-opacity-85 fixed top-0 mt-20 w-full px-10 md:px-15 lg:px-20 text-4xl flex-col gap-4 ${
+        className={`h-full z-40 bg-white dark:bg-main-bg-dark bg-opacity-85 dark:bg-opacity-85 pt-4 fixed top-0 mt-16 w-full px-10 md:px-15 lg:px-20 text-4xl flex-col gap-4 ${
           menuOpen == true ? "flex" : "hidden"
         }`}
       >
