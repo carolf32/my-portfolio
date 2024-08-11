@@ -1,6 +1,6 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { RefsContext } from "../context/refsContext";
-import { Fade, Flip } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import style from "../styles/styleSheet.module.scss";
 
 export const AboutMe = () => {
@@ -69,7 +69,9 @@ export const AboutMe = () => {
               </div>
             </div>
           </div>
-          <iframe src="https://lottie.host/embed/e289f9ee-2169-4880-a636-089edada0b4e/IVoi7HXLH4.json"></iframe>
+          <div>
+            <iframe src="https://lottie.host/embed/e289f9ee-2169-4880-a636-089edada0b4e/IVoi7HXLH4.json"></iframe>
+          </div>
         </div>
       </Fade>
     </div>

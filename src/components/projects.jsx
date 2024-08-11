@@ -27,7 +27,7 @@ export const Projects = () => {
                 studying in Kenzie Academy. I used React Icons lib and SASS to
                 customize. Click
                 <a
-                  className="text-third-main-color"
+                  className="text-main-color"
                   target="_blank"
                   href="https://template-hamburgueria-react.vercel.app"
                 >
@@ -48,7 +48,7 @@ export const Projects = () => {
                 e-commerce and is fully responsive. I did it as one of the
                 B7Webs's course challenge. Click
                 <a
-                  className="text-third-main-color"
+                  className="text-main-color"
                   target="_blank"
                   href="https://carolf32.github.io/pizza-menu-js/"
                 >
@@ -69,7 +69,7 @@ export const Projects = () => {
                 customization, Toastify library for the popups, Zod for
                 validation and Axios for the integration with the API. Click
                 <a
-                  className="text-third-main-color"
+                  className="text-main-color"
                   target="_blank"
                   href="https://react-delta-ten.vercel.app"
                 >
