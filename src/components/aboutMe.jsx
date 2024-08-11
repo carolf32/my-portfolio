@@ -33,10 +33,10 @@ export const AboutMe = () => {
               </h2>
 
               <div className="flex justify-between items-center ">
-                <h3 className="font-semibold px-3 w-1/4">Portuguese</h3>
+                <h3 className="font-semibold px-3 ">Portuguese</h3>
 
                 <div
-                  className={`${style.blackBorder} rounded-full text-sm my-2  w-3/4`}
+                  className={`${style.blackBorder} rounded-full text-sm my-2  w-10/12`}
                 >
                   <div
                     className={`rounded-full bg-main-color m-0.5 w-auto text-white `}
@@ -47,9 +47,9 @@ export const AboutMe = () => {
               </div>
 
               <div className="flex justify-between items-center ">
-                <h3 className="font-semibold px-3 w-1/4">English</h3>
+                <h3 className="font-semibold px-3 ">English</h3>
                 <div
-                  className={`${style.blackBorder} rounded-full text-sm my-2 text-white  w-3/4`}
+                  className={`${style.blackBorder} rounded-full text-sm my-2 text-white w-10/12`}
                 >
                   <div className={`rounded-full bg-main-color m-0.5 w-4/5`}>
                     C1 Level
@@ -58,9 +58,9 @@ export const AboutMe = () => {
               </div>
 
               <div className="flex justify-between items-center ">
-                <h3 className="font-semibold px-3 w-1/4">Spanish</h3>
+                <h3 className="font-semibold px-3 ">Spanish</h3>
                 <div
-                  className={`${style.blackBorder} rounded-full text-sm my-2 text-white w-3/4`}
+                  className={`${style.blackBorder} rounded-full text-sm my-2 text-white w-10/12`}
                 >
                   <div className={`rounded-full bg-main-color m-0.5 w-1/3`}>
                     B1 Level

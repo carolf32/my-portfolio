@@ -65,7 +65,7 @@ export const Projects = () => {
             href="https://github.com/carolf32/signin-signup-page"
             text={
               <>
-                This was a Kenzie's Academy challenge, made with React, SASS for
+                This was a Kenzie Academy's challenge, made with React, SASS for
                 customization, Toastify library for the popups, Zod for
                 validation and Axios for the integration with the API. Click
                 <a
