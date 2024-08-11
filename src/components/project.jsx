@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 
-export default function Project({ src, alt, href }) {
+export default function Project({ src, alt, href, text }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -29,8 +29,7 @@ export default function Project({ src, alt, href }) {
           isHovered ? "block" : "hidden"
         } `}
       >
-        <p>Seu texto aqui</p>
-        <button>Clique aqui</button>
+        <p className="text-sm p-3">{text}</p>
       </div>
     </div>
   );
