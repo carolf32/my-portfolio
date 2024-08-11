@@ -1,8 +1,8 @@
-# React + Vite
+# My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For this project I used React, customized mostly with Tailwind CSS, but also SASS. For the animations, I used Tailwind CSS Animated and React Awesome Reveal libs. For the icons, I used the React Icons lib. For the gifs, I used Lottiefiles. There's a light and a dark mode, and it's fully responsive. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Captura de tela 2024-08-11 161130](https://github.com/user-attachments/assets/fe7f3691-01d0-4238-b3e5-2c83ae7e207d)
+
+See the project working <a href="my-portfolio1-lac.vercel.app"> here </a>
