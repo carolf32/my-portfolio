@@ -3,7 +3,7 @@ import { RefsContext } from "../context/refsContext";
 import project1 from "../assets/projects/burguerkenzie.png";
 import project2 from "../assets/projects/pizza-menu-js.png";
 import project3 from "../assets/projects/signin-signup-page.png";
-import project4 from "../assets/projects/ecommerce-template";
+import project4 from "../assets/projects/ecommerce-template.png";
 import Project from "./project";
 import { Fade } from "react-awesome-reveal";
 
