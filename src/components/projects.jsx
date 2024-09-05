@@ -1,8 +1,9 @@
 import { useContext, useState } from "react";
 import { RefsContext } from "../context/refsContext";
 import project1 from "../assets/projects/burguerkenzie.png";
-import project2 from "../assets/projects/ecommerce-template";
+import project2 from "../assets/projects/pizza-menu-js.png";
 import project3 from "../assets/projects/signin-signup-page.png";
+import project4 from "../assets/projects/ecommerce-template";
 import Project from "./project";
 import { Fade } from "react-awesome-reveal";
 
@@ -41,15 +42,21 @@ export const Projects = () => {
           <Project
             src={project2}
             alt="Pizza Menus project's photo"
-            href="https://github.com/carolf32/audio-ecommerce-template/tree/main"
+            href="https://github.com/carolf32/pizza-menu-js"
             text={
               <>
-                This is my first Full Stack solo project, I used my USERS API. I
-                used React JS on the Front End, Axios to conect with the server,
-                Zod for validation and serialization, React Router Dom and Reack
-                Hook Form for the routes and the forms, React Tostify for
-                popups, React Icons and Tailwind Css for styling and finally
-                Typescript
+                Made only with pure HTML, CSS and JS. Simulates an food
+                e-commerce and is fully responsive. I did it as one of the
+                B7Webs's course challenge. Click
+                <a
+                  className="text-main-color"
+                  target="_blank"
+                  href="https://carolf32.github.io/pizza-menu-js/"
+                >
+                  {" "}
+                  here{" "}
+                </a>
+                to try it.
               </>
             }
           />
@@ -71,6 +78,21 @@ export const Projects = () => {
                   here{" "}
                 </a>
                 to try it.
+              </>
+            }
+          />
+          <Project
+            src={project4}
+            alt="Audio e-commerce template project's photo"
+            href="https://github.com/carolf32/audio-ecommerce-template/tree/main"
+            text={
+              <>
+                This is my first Full Stack solo project, I used my USERS API. I
+                used React JS on the Front End, Axios to conect with the server,
+                Zod for validation and serialization, React Router Dom and Reack
+                Hook Form for the routes and the forms, React Tostify for
+                popups, React Icons and Tailwind Css for styling and finally
+                Typescript
               </>
             }
           />
