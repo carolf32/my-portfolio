@@ -69,7 +69,9 @@ export const Projects = () => {
               <>
                 This was a Kenzie Academy's challenge, made with React, SASS for
                 customization, Toastify library for the popups, Zod for
-                validation and Axios for the integration with the API. Click
+                validation and Axios for the integration with the API. You can
+                sign up, login and register/update/delete techlonogies in your
+                profile page. Click
                 <a
                   className="text-main-color"
                   target="_blank"
@@ -91,8 +93,10 @@ export const Projects = () => {
                 This is my first Full Stack solo project. I used React JS on the
                 Front End, Axios to conect with the server, Zod for validation
                 and serialization, React Router Dom and Reack Hook Form for the
-                routes and the forms, React Tostify for popups, React Icons and
-                Tailwind Css for styling and finally Typescript. You can try it{" "}
+                routes and the forms, Tailwind Css for styling and finally
+                Typescript. You can sign up, login, or enter as a guest. Add
+                items on cart, see total and cart items. As employee you can
+                add/update/remove products. You can try it{" "}
                 <a
                   className="text-main-color"
                   target="_blank"
@@ -113,11 +117,12 @@ export const Projects = () => {
               <>
                 This application is aimed at controlling stock in an online
                 headphones store. It's the second part of audio e-commerce's
-                project. I used Typescript to program with React, React Router
-                Dom for the routes, React Icons as the icon library, React
-                Toastify for popups, Tailwind CSS for styling, Node JS for the
-                back end, Axios to consume the API, Zod for serialization. Try
-                it
+                project. As employee you can add/update/remove products. Sign up
+                or login your account. I used Typescript to program with React,
+                React Router Dom for the routes, React Icons as the icon
+                library, React Toastify for popups, Tailwind CSS for styling,
+                Node JS for the back end, Axios to consume the API, Zod for
+                serialization. Try it
                 <a
                   className="text-main-color"
                   target="_blank"
