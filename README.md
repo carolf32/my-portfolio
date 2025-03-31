@@ -5,4 +5,4 @@ For this project I used React, customized mostly with Tailwind CSS, but also SAS
 
 ![Captura de tela 2024-08-11 161130](https://github.com/user-attachments/assets/fe7f3691-01d0-4238-b3e5-2c83ae7e207d)
 
-See the project working <a href="my-portfolio1-lac.vercel.app"> here </a>
+See the project working <a href="https://my-portfolio-blush-iota-44.vercel.app"> here </a>
