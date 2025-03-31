@@ -4,6 +4,7 @@ import project1 from "../assets/projects/burguerkenzie.png";
 import project2 from "../assets/projects/pizza-menu-js.png";
 import project3 from "../assets/projects/signin-signup-page.png";
 import project4 from "../assets/projects/ecommerce-template.png";
+import project5 from "../assets/projects/admin-stock.png";
 import Project from "./project";
 import { Fade } from "react-awesome-reveal";
 
@@ -87,12 +88,44 @@ export const Projects = () => {
             href="https://github.com/carolf32/audio-ecommerce-template/tree/main"
             text={
               <>
-                This is my first Full Stack solo project, I used my USERS API. I
-                used React JS on the Front End, Axios to conect with the server,
-                Zod for validation and serialization, React Router Dom and Reack
-                Hook Form for the routes and the forms, React Tostify for
-                popups, React Icons and Tailwind Css for styling and finally
-                Typescript
+                This is my first Full Stack solo project. I used React JS on the
+                Front End, Axios to conect with the server, Zod for validation
+                and serialization, React Router Dom and Reack Hook Form for the
+                routes and the forms, React Tostify for popups, React Icons and
+                Tailwind Css for styling and finally Typescript. You can try it{" "}
+                <a
+                  className="text-main-color"
+                  target="_blank"
+                  href="https://audio-ecommerce-template-m89p.vercel.app"
+                >
+                  {" "}
+                  here{" "}
+                </a>
+              </>
+            }
+          />
+
+          <Project
+            src={project5}
+            alt="Admin stock template"
+            href="https://github.com/carolf32/admin-stock-template/tree/main"
+            text={
+              <>
+                This application is aimed at controlling stock in an online
+                headphones store. It's the second part of audio e-commerce's
+                project. I used Typescript to program with React, React Router
+                Dom for the routes, React Icons as the icon library, React
+                Toastify for popups, Tailwind CSS for styling, Node JS for the
+                back end, Axios to consume the API, Zod for serialization. Try
+                it
+                <a
+                  className="text-main-color"
+                  target="_blank"
+                  href="https://admin-stock-template.vercel.app"
+                >
+                  {" "}
+                  here{" "}
+                </a>
               </>
             }
           />

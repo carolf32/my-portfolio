@@ -21,9 +21,13 @@ export const AboutMe = () => {
               <h2 className="text-xl font-semibold mb-3">
                 👩🏼‍💻 Education and training
               </h2>
-              Graduadet as Full Stack Dev at Kenzie Academy Brasil, having taken
-              other courses focused on Front and Back End, such as B7WEB,
-              Origamid and Udemy
+              I have a background in Engineering but transitioned to web
+              development after working at a tech startup. I completed a
+              2000-hour Full Stack Development course at Kenzie Academy Brasil
+              and am currently pursuing a degree in Systems Analysis and
+              Development. With expertise in technologies like React, Node.js,
+              and PostgreSQL, I am passionate about creating dynamic and
+              efficient web applications.
             </div>
             <div
               className={`text-base md:text-lg text-black bg-main-grey rounded-lg p-4`}
@@ -51,7 +55,7 @@ export const AboutMe = () => {
                 <div
                   className={`${style.blackBorder} rounded-full text-sm my-2 text-white w-10/12`}
                 >
-                  <div className={`rounded-full bg-main-color m-0.5 w-4/5`}>
+                  <div className={`rounded-full bg-main-color m-0.5 w-5/6`}>
                     C1 Level
                   </div>
                 </div>
@@ -62,8 +66,19 @@ export const AboutMe = () => {
                 <div
                   className={`${style.blackBorder} rounded-full text-sm my-2 text-white w-10/12`}
                 >
-                  <div className={`rounded-full bg-main-color m-0.5 w-1/3`}>
+                  <div className={`rounded-full bg-main-color m-0.5 w-1/2`}>
                     B1 Level
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex justify-between items-center ">
+                <h3 className="font-semibold px-3 ">German</h3>
+                <div
+                  className={`${style.blackBorder} rounded-full text-sm my-2 text-white w-10/12`}
+                >
+                  <div className={`rounded-full bg-main-color m-0.5 w-1/3`}>
+                    A2 Level
                   </div>
                 </div>
               </div>
