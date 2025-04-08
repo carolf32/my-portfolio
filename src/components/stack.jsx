@@ -95,6 +95,41 @@ export const Stack = () => {
             <h2 className="font-semibold">Python</h2>
             <i className={`devicon-python-plain ${style.icon}`}></i>
           </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">Angular</h2>
+            <i className={`devicon-angularjs-plain ${style.icon}`}></i>
+          </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">Bootstrap</h2>
+            <i className={`devicon-bootstrap-plain ${style.icon}`}></i>
+          </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">Figma</h2>
+            <i className={`devicon-figma-plain ${style.icon}`}></i>
+          </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">Wordpress</h2>
+            <i className={`devicon-wordpress-plain ${style.icon}`}></i>
+          </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">React Native</h2>
+            <i className={`devicon-react-original ${style.icon}`}></i>
+          </div>
         </div>
       </Fade>
     </div>
