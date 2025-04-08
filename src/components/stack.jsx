@@ -44,6 +44,12 @@ export const Stack = () => {
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
           >
+            <h2 className="font-semibold">Angular</h2>
+            <i className={`devicon-angularjs-plain ${style.icon}`}></i>
+          </div>
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
             <h2 className="font-semibold">SASS</h2>
             <i className={`devicon-sass-original ${style.icon}`}></i>
           </div>
@@ -52,6 +58,12 @@ export const Stack = () => {
           >
             <h2 className="font-semibold">Tailwind CSS</h2>
             <i className={`devicon-tailwindcss-original ${style.icon}`}></i>
+          </div>
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">Bootstrap</h2>
+            <i className={`devicon-bootstrap-plain ${style.icon}`}></i>
           </div>
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
@@ -77,12 +89,7 @@ export const Stack = () => {
             <h2 className="font-semibold">PostgreSQL</h2>
             <i className={`devicon-postgresql-plain ${style.icon}`}></i>
           </div>
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">MySQL</h2>
-            <i className={`devicon-mysql-original ${style.icon}`}></i>
-          </div>
+
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
           >
@@ -94,20 +101,6 @@ export const Stack = () => {
           >
             <h2 className="font-semibold">Python</h2>
             <i className={`devicon-python-plain ${style.icon}`}></i>
-          </div>
-
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">Angular</h2>
-            <i className={`devicon-angularjs-plain ${style.icon}`}></i>
-          </div>
-
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">Bootstrap</h2>
-            <i className={`devicon-bootstrap-plain ${style.icon}`}></i>
           </div>
 
           <div
