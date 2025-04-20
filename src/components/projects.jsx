@@ -5,6 +5,7 @@ import project2 from "../assets/projects/pizza-menu-js.png";
 import project3 from "../assets/projects/signin-signup-page.png";
 import project4 from "../assets/projects/ecommerce-template.png";
 import project5 from "../assets/projects/admin-stock.png";
+import project6 from "../assets/projects/thedevelopers.png";
 import Project from "./project";
 import { Fade } from "react-awesome-reveal";
 
@@ -131,6 +132,19 @@ export const Projects = () => {
                   {" "}
                   here{" "}
                 </a>
+              </>
+            }
+          />
+
+          <Project
+            src={project6}
+            alt="The developers website template"
+            href="https://github.com/carolf32/developers-angular-project"
+            text={
+              <>
+                This application was my first Angular+Typescript project. It is
+                a website with 4 devs, each one have its own comments page. You
+                can check the comments or leave a comment if you are logged in.
               </>
             }
           />
