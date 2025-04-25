@@ -1,6 +1,6 @@
 import Carolina from "../assets/Photo/carolina.jpeg";
 import style from "../styles/styleSheet.module.scss";
-import Resume from "../assets/CV-Carolina/Carolina-do-Amaral-Frederico-CV.pdf";
+import Resume from "../assets/CV-Carolina/CV-Carolina-do-Amaral-Frederico.pdf";
 import { useContext } from "react";
 import { RefsContext } from "../context/refsContext";
 import { Fade } from "react-awesome-reveal";

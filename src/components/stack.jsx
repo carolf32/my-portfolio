@@ -71,18 +71,7 @@ export const Stack = () => {
             <h2 className="font-semibold">Node.js</h2>
             <i className={`devicon-nodejs-plain ${style.icon}`}></i>
           </div>
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">Express</h2>
-            <i className={`devicon-express-original ${style.icon}`}></i>
-          </div>
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">Prisma ORM</h2>
-            <i className={`devicon-prisma-original ${style.icon}`}></i>
-          </div>
+
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
           >
@@ -113,15 +102,29 @@ export const Stack = () => {
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
           >
-            <h2 className="font-semibold">Wordpress</h2>
-            <i className={`devicon-wordpress-plain ${style.icon}`}></i>
+            <h2 className="font-semibold">React Native</h2>
+            <i className={`devicon-react-original ${style.icon}`}></i>
           </div>
 
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
           >
-            <h2 className="font-semibold">React Native</h2>
-            <i className={`devicon-react-original ${style.icon}`}></i>
+            <h2 className="font-semibold">Java</h2>
+            <i className={`devicon-java-plain ${style.icon}`}></i>
+          </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">C#</h2>
+            <i className={`devicon-csharp-plain ${style.icon}`}></i>
+          </div>
+
+          <div
+            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
+          >
+            <h2 className="font-semibold">.NET</h2>
+            <i className={`devicon-dotnetcore-plain ${style.icon}`}></i>
           </div>
         </div>
       </Fade>
