@@ -7,6 +7,7 @@ import project4 from "../assets/projects/ecommerce-template.png";
 import project5 from "../assets/projects/admin-stock.png";
 import project6 from "../assets/projects/thedevelopers.png";
 import project7 from "../assets/projects/hospital-app.png";
+import project8 from "../assets/projects/chatapp.png";
 import Project from "./project";
 import { Fade } from "react-awesome-reveal";
 
@@ -162,6 +163,20 @@ export const Projects = () => {
                 schedules, and administrators to oversee the entire system. The
                 system also includes online payment integration and three levels
                 of authentication.
+              </>
+            }
+          />
+
+          <Project
+            src={project8}
+            alt="The Chat App"
+            href="https://github.com/carolf32/chat-application"
+            text={
+              <>
+                This project is a full stack real-time chat application built
+                with React JS and Firebase. It allows users to create an
+                account, chat with friends, and send images during
+                conversations.
               </>
             }
           />
