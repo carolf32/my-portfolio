@@ -151,7 +151,7 @@ export const Projects = () => {
           />
 
           <Project
-            src={project}
+            src={project7}
             alt="The Hospital App"
             href="https://github.com/carolf32/hospital-appointments"
             text={
