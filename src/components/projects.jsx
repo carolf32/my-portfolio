@@ -6,6 +6,7 @@ import project3 from "../assets/projects/signin-signup-page.png";
 import project4 from "../assets/projects/ecommerce-template.png";
 import project5 from "../assets/projects/admin-stock.png";
 import project6 from "../assets/projects/thedevelopers.png";
+import project7 from "../assets/projects/hospital-app.png";
 import Project from "./project";
 import { Fade } from "react-awesome-reveal";
 
@@ -145,6 +146,22 @@ export const Projects = () => {
                 This application was my first Angular+Typescript project. It is
                 a website with 4 devs, each one have its own comments page. You
                 can check the comments or leave a comment if you are logged in.
+              </>
+            }
+          />
+
+          <Project
+            src={project}
+            alt="The Hospital App"
+            href="https://github.com/carolf32/hospital-appointments"
+            text={
+              <>
+                This is a Full Stack application built with the MERN stack
+                (MongoDB, Express.js, React.js, Node.js) that allows patients to
+                book appointments with doctors, doctors to manage their
+                schedules, and administrators to oversee the entire system. The
+                system also includes online payment integration and three levels
+                of authentication.
               </>
             }
           />
