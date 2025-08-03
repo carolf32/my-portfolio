@@ -161,8 +161,7 @@ export const Projects = () => {
                 (MongoDB, Express.js, React.js, Node.js) that allows patients to
                 book appointments with doctors, doctors to manage their
                 schedules, and administrators to oversee the entire system. The
-                system also includes online payment integration and three levels
-                of authentication.
+                system also includes three levels of authentication.
               </>
             }
           />
