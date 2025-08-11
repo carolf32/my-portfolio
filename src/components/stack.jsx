@@ -85,12 +85,6 @@ export const Stack = () => {
             <h2 className="font-semibold">Nest.js</h2>
             <i className={`devicon-nestjs-original ${style.icon}`}></i>
           </div>
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">Python</h2>
-            <i className={`devicon-python-plain ${style.icon}`}></i>
-          </div>
 
           <div
             className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
@@ -111,20 +105,6 @@ export const Stack = () => {
           >
             <h2 className="font-semibold">Java</h2>
             <i className={`devicon-java-plain ${style.icon}`}></i>
-          </div>
-
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">C#</h2>
-            <i className={`devicon-csharp-plain ${style.icon}`}></i>
-          </div>
-
-          <div
-            className={`${style.stack} shadow-md shadow-main-color transition transform hover:scale-110 duration-300`}
-          >
-            <h2 className="font-semibold">.NET</h2>
-            <i className={`devicon-dotnetcore-plain ${style.icon}`}></i>
           </div>
         </div>
       </Fade>
